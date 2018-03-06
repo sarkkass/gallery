@@ -1,0 +1,96 @@
+html {
+  margin-left: 200px;
+  margin-right: 265px;
+  margin-top: 20px; /*
+  background-image:url("img/back.JPG"); */
+  background-position:top center;
+  background-attachment: fixed;
+  background-size: 100%;
+
+}
+
+header {
+  margin-bottom: 10px;
+  font: 400 70px/1.2 'Merienda One', Helvetica, sans-serif !important;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+  letter-spacing: 3px;
+  padding-left: 10px;
+}
+img {
+  width: 100%;
+  height: auto;
+  border: solid 1px !important;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
+#menu {
+    padding-left: 0px !important;
+    font-size: 22px;
+}
+
+.navbar-brand {
+  font-size: 22px !important;
+}
+
+#navbar {
+  border:solid 1px;
+  border-color: #d3dae5;
+  margin-bottom: -10px !important;
+}
+
+#nav1 {
+  font-size: 22px !important;
+}
+
+#title {
+  font: 400 22px/1.2 'Merienda One', Helvetica, sans-serif !important;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+  letter-spacing: 3px;
+}
+
+p {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 22px;/*
+  margin-right: 200px;*/
+  text-shadow: 1px 1px 1px #fff;
+  font-weight:normal;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: 0px !important;
+  padding-top: 15px !important;
+  padding-bottom: 10px;
+}
+
+h1 {
+  padding-left: 10px;
+  font-weight: bold !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  margin:0px !important;
+  padding-left: 10px !important;
+  padding-top: 15px !important;
+}
+form {
+  padding-right: 80px;
+}
+
+/* SMALLER SCREENS */
+@media screen and (min-width: 0px) and (max-width: 991px) {
+   p {font-size: 32px !important;}
+   h1 {font-size: 55px !important;}
+   #menu {font-size: 25px !important;}
+   .navbar-brand {padding-left: 5px; font-size: 25px !important; padding-top: 15px !important; margin-bottom: 0px !important;}
+   h3 {font-size: 35px !important;}
+   #info {font-size: 25px !important;}
+   #file {font-size: 25px !important;}
+   #searchb {font-size: 25px !important; border: solid 1px;}
+   .navbar-brand {display: none;}
+   html {margin-right: 55px !important;}
+   p {margin-right: 0px !important;}
+   #picks {background-color: rgba(255, 0, 0, 0.0) !important;}
+   html{background:none;}
+ }
